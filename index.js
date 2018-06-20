@@ -38,7 +38,7 @@ var app =express()
       case "envelope":
         total = computeEnvelopesFlats(weight);
         break;
-      case "parcel":
+      case "package":
         total = computePackageFirstClass(weight);
         break;
     }
