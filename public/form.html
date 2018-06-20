@@ -12,27 +12,27 @@
   </head>
   <body>
     <h1>Postal Rate Calculator</h1>
-    <form>
+    <form action="/getRate" method="GET">
         <div class="form-row">
           <div class="col-3">
-            <input type="number" class="form-control" placeholder="Weight">
+            <input type="number" class="form-control" placeholder="Weight (oz.)" name="weight">
           </div>
           <div class="col">
             <div class="input-group mb-3">
                 <div class="input-group-prepend">
                   <label class="input-group-text" for="inputGroupSelect01">Options</label>
                 </div>
-                <select class="custom-select" id="inputGroupSelect01">
+                <select name="mail_option" class="custom-select" id="inputGroupSelect01">
                   <option selected>Choose...</option>
-                  <option value="1">Letters (Stamped)</option>
-                  <option value="2">Letters (Metered)</option>
-                  <option value="3">Large Envelopes(Flats)</option>
-                  <option value="4">First-Class Package Service - Retail</option>
+                  <option value="letter_s">Letters (Stamped)</option>
+                  <option value="letter_m">Letters (Metered)</option>
+                  <option value="envelope">Large Envelopes(Flats)</option>
+                  <option value="package">First-Class Package Service - Retail</option>
                 </select>
               </div>
           </div>
           <div class="col">
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary">See Price</button>
           </div>
         </div>
         
