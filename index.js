@@ -11,7 +11,7 @@ express()
   .get('/', (req, res) => res.render('pages/index'))
   .get('/cool', (req, res) => res.send(cool()))
   .get('/getRate', (req, res) => {
-    computeCost(req, res);
+    getFormValues(req, res);
   })
   .listen(PORT, () => console.log(`Listening on ${ PORT }`))
 
