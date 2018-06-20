@@ -27,7 +27,7 @@ var app =express()
   function computeCost(res, option, weight) {
 
     var total = 0;
-
+  
     switch (option) {
       case "letter_s":
         total = computeLetterStamped(weight);
@@ -44,7 +44,10 @@ var app =express()
     }
     
     var params = {option: option, weight: weight, total: total};
+
+    if (total > 0) {
     res.render('pages/result', params);
+    }
   }
 
   function computeLetterStamped(weight) {
@@ -58,7 +61,7 @@ var app =express()
     } else if (weight <= 3.5) {
       return 1.13;
     } else {
-      return -1;
+      return 0;
     }
   }
   
@@ -73,7 +76,7 @@ var app =express()
     } else if (weight <= 3.5) {
       return 1.10;
     } else {
-      return -1;
+      return 0;
     }
   
   }
@@ -107,7 +110,7 @@ var app =express()
     } else if (weight <= 13) {
       return 3.52;
     } else {
-      return -1;
+      return 0;
     }
   }
 
@@ -127,6 +130,6 @@ var app =express()
     } else if (weight <= 13) {
       return 5.50;
     } else {
-      return -1;
+      return 0;
     }
   }
