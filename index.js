@@ -9,7 +9,7 @@ express()
   .set('view engine', 'ejs')
   .get('/', (req, res) => res.render('pages/index'))
   .get('/cool', (req, res) => res.send(cool()))
-  .get('pages/getRate', (req, res) => {
-    res.render('result.ejs')
+  .get('/getRate', (req, res) => {
+    res.render('pages/result.ejs')
   })
   .listen(PORT, () => console.log(`Listening on ${ PORT }`))
