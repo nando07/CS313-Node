@@ -47,6 +47,8 @@ var app =express()
 
     if (total > 0) {
     res.render('pages/result', params);
+    } else {
+      // show error page
     }
   }
 
