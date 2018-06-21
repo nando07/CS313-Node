@@ -20,6 +20,7 @@ h1 {
 }
 #home {
    position: relative;
+   background-color: #f3c26a;
    width: 1000px;
    border: 1px dashed black;
    height: auto;
