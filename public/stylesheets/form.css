@@ -4,6 +4,10 @@ body {
     text-align: center;
 }
 
+h1 {
+    font-family: 'Pacifico', cursive;
+}
+
 #container {
     width: 100%;
     height: auto;
@@ -17,9 +21,8 @@ body {
 #home {
    position: relative;
    width: 1000px;
-border: 1px dashed black;
-     height: auto;
-    margin: 0 auto;
-    padding: 30px;
-   
+   border: 1px dashed black;
+   height: auto;
+   margin: 0 auto;
+   padding: 30px;
   }
