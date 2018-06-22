@@ -14,8 +14,6 @@ td {
 }
 
 table {
-    position: relative;
-    top: 100px;
     width: 400px;
     margin: 0 auto;
 }
@@ -49,7 +47,7 @@ table {
    background-color: #f3c26a;
    width: 1000px;
    border: 1px dashed black;
-   height: auto;
+   height: 500px;
    margin: 0 auto;
    padding: 30px;
   }
