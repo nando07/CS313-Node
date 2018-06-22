@@ -5,6 +5,10 @@ body {
     text-align: center;
 }
 
+p {
+    font-family: 'Bungee Inline', cursive;
+}
+
 h1 {
     font-family: 'Pacifico', cursive;
 }
