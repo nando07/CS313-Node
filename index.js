@@ -21,10 +21,10 @@ var app =express()
     var weight = Number(reqUrl.query.weight);
     var mailOption = reqUrl.query.mailOption;
 
-    computeCost(res, mailOption, weight);
+    calculateRate(res, mailOption, weight);
   }
 
-  function computeCost(res, option, weight) {
+  function calculateRate(res, option, weight) {
 
     var total = 0;
   
