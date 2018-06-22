@@ -39,7 +39,7 @@ var app =express()
         total = computeLetterMetered(weight);
         break;
       case "envelope":
-      choice = "Large Envelop (Flats)";
+      choice = "Large Envelope (Flats)";
         total = computeEnvelopesFlats(weight);
         break;
       case "package":
