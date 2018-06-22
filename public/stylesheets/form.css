@@ -49,7 +49,7 @@ table {
    background-color: #f3c26a;
    max-width: 1000px;
    border: 1px dashed black;
-   max-height: 500px;
+   height: 500px;
    margin: 0 auto;
    padding: 30px;
   }
