@@ -8,6 +8,10 @@ h1 {
     font-family: 'Pacifico', cursive;
 }
 
+td {
+    text-align: left;
+}
+
 #container {
     width: 100%;
     height: auto;
