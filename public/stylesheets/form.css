@@ -20,6 +20,7 @@ table {
 
 #stamp {
     position: relative;
+    float: right;
     top: 20px;
     right: 20px;
     width: 100px;
