@@ -50,10 +50,14 @@ var app =express()
     
     var params = {option: choice, weight: weight, total: total};
 
+
+
     if (total > 0) {
     res.render('pages/result', params);
     } else {
+
       // show error page
+      res.render('pages/invalid', params);
     }
   }
 
