@@ -28,11 +28,6 @@ table {
     max-width: 150px;
 }
 
-/* table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-} */
-
 #form-container {
     width: 100%;
     max-height: 800px;
@@ -58,12 +53,8 @@ table {
     width: 100%;
     max-height: 800px;
     margin: 0;
-    /* position: absolute;
-    top: 50%;
-    left: 50%; */
-    /* -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%); */
 }
+
 #home {
    position: relative;
    text-align: center;
