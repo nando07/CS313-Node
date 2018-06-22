@@ -6,7 +6,9 @@ body {
 }
 
 p {
-    font-family: 'Bungee Inline', cursive;
+    position: relative;
+    top: 200px;
+    font-family: 'Londrina Outline', cursive;
 }
 
 h1 {
