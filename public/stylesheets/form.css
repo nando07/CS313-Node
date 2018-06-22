@@ -19,10 +19,10 @@ table {
 }
 
 #stamp {
-    position: relative;
+   
     float: right;
-    top: 5px;
-    right: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
     width: 150px;
 
 }
