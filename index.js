@@ -27,23 +27,28 @@ var app =express()
   function calculateRate(res, option, weight) {
 
     var total = 0;
+    var choice = "";
   
     switch (option) {
       case "letter_s":
+      choice = "Letters Stamped";
         total = computeLetterStamped(weight);
         break;
       case "letter_m":
+      choice = "Letters Metered";
         total = computeLetterMetered(weight);
         break;
       case "envelope":
+      choice = "Large Envelop (Flats)";
         total = computeEnvelopesFlats(weight);
         break;
       case "package":
+      choice = "First-Class Package Service—Retail";
         total = computePackageFirstClass(weight);
         break;
     }
     
-    var params = {option: option, weight: weight, total: total};
+    var params = {option: choice, weight: weight, total: total};
 
     if (total > 0) {
     res.render('pages/result', params);
