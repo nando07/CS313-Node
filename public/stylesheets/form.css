@@ -24,7 +24,7 @@ table {
     position: absolute;
     top: 10px;
     right: 10px;
-    width: 150px;
+    max-width: 150px;
 }
 
 /* table, th, td {
@@ -49,7 +49,7 @@ table {
    background-color: #f3c26a;
    max-width: 1000px;
    border: 1px dashed black;
-   height: 500px;
+   max-height: 500px;
    margin: 0 auto;
    padding: 30px;
   }
