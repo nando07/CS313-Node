@@ -47,7 +47,7 @@ table {
    position: relative;
    text-align: center;
    background-color: #f3c26a;
-   width: 1000px;
+   max-width: 1000px;
    border: 1px dashed black;
    height: 500px;
    margin: 0 auto;
