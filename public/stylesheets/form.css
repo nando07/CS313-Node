@@ -30,6 +30,7 @@ table, th, td {
 }
 #home {
    position: relative;
+   text-align: center;
    background-color: #f3c26a;
    width: 1000px;
    border: 1px dashed black;
