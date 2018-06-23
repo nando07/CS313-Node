@@ -48,7 +48,7 @@ var app =express()
         break;
     }
     
-    var params = {option: choice, weight: weight, total: total};
+    var params = {option: choice, weight: weight, total: total.toFixed(2)};
 
 
 
